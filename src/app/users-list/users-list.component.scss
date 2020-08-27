@@ -1,0 +1,20 @@
+.item {
+  display: inline-block;
+  width: 180px;
+
+  .admin & {
+    color: #fff;
+  }
+}
+
+.admin {
+  background-color: lightcoral;
+}
+
+.odd {
+  background-color: #c2c3c4;
+
+  &.admin {
+    background-color: #ff9090;
+  }
+}
